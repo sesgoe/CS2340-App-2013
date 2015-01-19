@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/63/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/presenters
+END
+EnterItemPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/63/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/presenters/EnterItemPresenter.java
+END
+EnterPersonPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/48/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/presenters/EnterPersonPresenter.java
+END
+PersonListingPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/48/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/presenters/PersonListingPresenter.java
+END
+ItemListingPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/63/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/presenters/ItemListingPresenter.java
+END
+ManageUsersPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/63/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/presenters/ManageUsersPresenter.java
+END
+LoggedInPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/63/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/presenters/LoggedInPresenter.java
+END

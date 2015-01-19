@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  		
+   		 xmlns:tools="http://schemas.android.com/tools"
+   		 android:layout_width="match_parent"
+   		 android:layout_height="match_parent"
+   		 android:textAlignment="center"
+    	 tools:context=".EnterPersonActivity" >
+    
+     <TextView
+        android:id="@+id/textViewItemsPosted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Items Posted:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+     
+     <TextView
+        android:id="@+id/textViewCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textViewItemsPosted"
+        android:layout_toLeftOf="@+id/sortSpinnerCategory"
+        android:layout_centerHorizontal="true"
+        android:text="Filter by Category:" />
+     
+     <Spinner
+        android:id="@+id/sortSpinnerCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textViewItemsPosted"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/sort_categories_array"/>
+     
+     <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textViewCategory"
+        android:layout_toLeftOf="@+id/sortSpinnerStatus"
+        android:layout_centerHorizontal="true"
+        android:text="Filter by Status:" />
+     
+     <Spinner
+        android:id="@+id/sortSpinnerStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textViewCategory"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/sort_status_array"/>
+     
+     <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textViewStatus"
+        android:layout_toLeftOf="@+id/sortSpinnerDate"
+        android:layout_centerHorizontal="true"
+        android:text="Filter by Date:" />
+     
+     <Spinner
+        android:id="@+id/sortSpinnerDate"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textViewStatus"
+        android:layout_toLeftOf="@+id/sortSpinnerDay"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/sort_date_array"/>
+     
+     <Spinner
+        android:id="@+id/sortSpinnerMonth"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textViewStatus"
+        android:layout_toRightOf="@+id/sortSpinnerDay"
+        android:entries="@array/sort_day_array"/>
+     
+     <Spinner
+        android:id="@+id/sortSpinnerDay"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textViewStatus"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/sort_month_array"/>
+     
+     <Spinner
+        android:id="@+id/sortSpinnerYear"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/textViewStatus"
+        android:layout_toRightOf="@+id/sortSpinnerMonth"
+        android:entries="@array/sort_year_array"/>
+     
+     <Button
+        android:id="@+id/filterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewDate"
+        android:layout_centerHorizontal="true"
+        android:onClick="onFilterClick"
+        android:text="Filter" />
+     
+     <Button
+        android:id="@+id/returnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/filterButton"
+        android:layout_centerHorizontal="true"
+        android:onClick="onReturnClick"
+        android:text="Return to Main Menu" />
+     
+     <ListView android:id="@android:id/list"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_below="@+id/returnButton"
+               
+               android:drawSelectorOnTop="false"/>
+
+     <TextView android:id="@android:id/empty"
+               android:layout_width="wrap_content"
+        	   android:layout_height="wrap_content"
+               android:layout_centerHorizontal="true"
+               android:layout_below="@+id/returnButton"
+               android:text="No Items Found"
+               android:textAppearance="?android:attr/textAppearanceLarge"/>
+    
+
+</RelativeLayout>

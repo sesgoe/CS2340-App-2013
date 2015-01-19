@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".EnterPersonActivity" >
+
+   	<TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="Please enter item information, then press Accept or Cancel"
+        android:textAlignment="gravity"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+   	
+   	 <TextView
+        android:id="@+id/activity_loggedin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="Item Name:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+   	
+    <EditText
+        android:id="@+id/editItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_loggedin"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editItemName"
+        android:layout_centerHorizontal="true"
+        android:text="Item Description:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/itemDescText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_alignLeft="@+id/editItemName"
+        android:ems="10"
+        android:gravity="center_vertical|top"
+        android:inputType="textMultiLine"
+        android:lines="7" >
+
+        <requestFocus />
+    </EditText>
+    
+    <Spinner
+        android:id="@+id/categorySpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itemDescText"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/categories_array"/>
+    
+    <Spinner
+        android:id="@+id/postSpinnerMonth"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/categorySpinner"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/sort_day_array"/>
+     
+     <Spinner
+        android:id="@+id/postSpinnerDay"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/categorySpinner"
+        android:layout_toLeftOf="@+id/postSpinnerMonth"
+        android:entries="@array/sort_month_array"/>
+     
+     <Spinner
+        android:id="@+id/postSpinnerYear"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/categorySpinner"
+        android:layout_toRightOf="@+id/postSpinnerMonth"
+        android:entries="@array/sort_year_array"/>
+    
+    <Button
+        android:id="@+id/addItemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:onClick="onAddItemClick"
+        android:text="Accept" />
+    
+     <Button
+        android:id="@+id/listItemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/addItemButton"
+        android:layout_alignBottom="@+id/addItemButton"
+        android:layout_toRightOf="@+id/addItemButton"
+        android:onClick="onCancelClick"
+        android:text="Cancel" />
+
+</RelativeLayout>

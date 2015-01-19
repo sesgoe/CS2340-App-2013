@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/68/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/model
+END
+IModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/29/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/model/IModel.java
+END
+LoginModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/72/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/model/LoginModel.java
+END
+ILogin.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/61/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/model/ILogin.java
+END
+UserDataSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/62/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/model/UserDataSource.java
+END
+Admin.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/48/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/model/Admin.java
+END
+ItemSQLiteHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/62/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/model/ItemSQLiteHelper.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/63/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/model/User.java
+END
+ItemDataSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/62/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/model/ItemDataSource.java
+END
+ItemModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/61/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/model/ItemModel.java
+END
+InMemoryModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/68/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/model/InMemoryModel.java
+END
+Item.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/63/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/model/Item.java
+END
+UserMySQLiteHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/62/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/model/UserMySQLiteHelper.java
+END

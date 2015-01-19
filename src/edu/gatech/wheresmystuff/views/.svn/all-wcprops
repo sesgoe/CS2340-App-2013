@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/70/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/views
+END
+IItemListingView.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/61/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/views/IItemListingView.java
+END
+ShowQuickSearchResultsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/63/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/views/ShowQuickSearchResultsActivity.java
+END
+EnterFoundItemActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/63/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/views/EnterFoundItemActivity.java
+END
+IPersonListingView.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/29/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/views/IPersonListingView.java
+END
+IEnterPersonView.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/33/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/views/IEnterPersonView.java
+END
+IEnterItemView.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/61/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/views/IEnterItemView.java
+END
+SearchItemsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/63/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/views/SearchItemsActivity.java
+END
+QuickSearchActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/63/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/views/QuickSearchActivity.java
+END
+ShowSearchResultsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/63/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/views/ShowSearchResultsActivity.java
+END
+PersonListingActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/63/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/views/PersonListingActivity.java
+END
+EnterPersonActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/61/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/views/EnterPersonActivity.java
+END
+EnterItemActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/63/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/views/EnterItemActivity.java
+END
+IManageUsers.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/63/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/views/IManageUsers.java
+END
+LoggedInActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/63/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/views/LoggedInActivity.java
+END
+ILoggedInView.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/61/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/views/ILoggedInView.java
+END
+ErrorAlert.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/63/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/views/ErrorAlert.java
+END
+ShowItemsActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/70/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/views/ShowItemsActivity.java
+END
+ManageUsersActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/63/trunk/WheresMyStuff/src/edu/gatech/wheresmystuff/views/ManageUsersActivity.java
+END

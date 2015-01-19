@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".EnterPersonActivity" >
+
+    <TextView
+        android:id="@+id/activity_loggedin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="Item Name:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/editItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/activity_loggedin"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/itemDescText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editItemName"
+        android:layout_below="@+id/textView4"
+        android:ems="10"
+        android:gravity="center_vertical|top"
+        android:inputType="textMultiLine"
+        android:lines="7" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/addItemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:onClick="onAddItemClick"
+        android:text="Accept" />
+
+    <Button
+        android:id="@+id/listItemButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/addItemButton"
+        android:layout_alignBottom="@+id/addItemButton"
+        android:layout_toRightOf="@+id/addItemButton"
+        android:onClick="onCancelClick"
+        android:text="Cancel" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Enter item name and location"
+        android:textAlignment="gravity"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editItemName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="Item Location:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

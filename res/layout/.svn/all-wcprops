@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/59/trunk/WheresMyStuff/res/layout
+END
+activity_loggedin.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/56/trunk/WheresMyStuff/res/layout/activity_loggedin.xml
+END
+activity_enter_found_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/38/trunk/WheresMyStuff/res/layout/activity_enter_found_item.xml
+END
+activity_search.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/56/trunk/WheresMyStuff/res/layout/activity_search.xml
+END
+activity_enter_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/46/trunk/WheresMyStuff/res/layout/activity_enter_item.xml
+END
+activity_quick_search.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/47/trunk/WheresMyStuff/res/layout/activity_quick_search.xml
+END
+activity_enter_person.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/31/trunk/WheresMyStuff/res/layout/activity_enter_person.xml
+END
+activity_manage_users.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/36/trunk/WheresMyStuff/res/layout/activity_manage_users.xml
+END
+row_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/41/trunk/WheresMyStuff/res/layout/row_layout.xml
+END
+activity_list_items.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/44/trunk/WheresMyStuff/res/layout/activity_list_items.xml
+END
+activity_search_results.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/56/trunk/WheresMyStuff/res/layout/activity_search_results.xml
+END
+row_layout_items.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/40/trunk/WheresMyStuff/res/layout/row_layout_items.xml
+END
+activity_quick_search_results.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/59/trunk/WheresMyStuff/res/layout/activity_quick_search_results.xml
+END
